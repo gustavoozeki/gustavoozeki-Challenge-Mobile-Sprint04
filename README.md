@@ -37,11 +37,13 @@ O aplicativo conta com um fluxo completo, desde a autenticação do usuário at�
 - Questionário Interativo: O usuário pode responder a um questionário completo com perguntas de múltipla escolha para definir seu perfil de investidor. As respostas são salvas no `AsyncStorage` para futuras consultas.
 - Cálculo e Exibição do Perfil: Com base nas respostas do questionário, o aplicativo calcula automaticamente o perfil do investidor (Conservador, Moderado ou Arrojado) e o exibe de forma clara para o usuário na tela de "Perfil de Investimentos".
 
-### Carteira e Sugestões
+### Gestão da Carteira (CRUD com Firebase)
 
-- Sugestões Personalizadas: A tela de "Sugestões" exibe diferentes carteiras de investimento de acordo com o perfil calculado do usuário, oferecendo opções personalizadas e relevantes.
-- Seleção de Carteira: O usuário pode escolher uma das carteiras sugeridas, e sua seleção é salva no `AsyncStorage`.
-- Visualização da Carteira: A tela "Minha Carteira" exibe os detalhes da carteira que foi selecionada pelo usuário, concluindo o fluxo de personalização.
+A funcionalidade principal da aplicação, onde o utilizador pode gerir os seus investimentos. Todos os dados são armazenados na nuvem (Firebase), garantindo que a carteira de cada utilizador seja privada e segura.
+
+- **Visualização da Carteira:** A tela principal exibe a lista de todos os investimentos do utilizador logado, carregados em tempo real a partir do Firebase.
+- **Adicionar Investimentos** Um formulário que permite que o usuário adicione novos ativos à sua carteira.
+- **Editar Investimentos** Cada item da carteira possui um botão "Editar" que abre o mesmo formulário preenchido com os dados do ativo, permitindo a sua atualização.
 
 ## Telas
 
