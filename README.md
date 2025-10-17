@@ -42,3 +42,33 @@ O aplicativo conta com um fluxo completo, desde a autenticação do usuário at�
 - Sugestões Personalizadas: A tela de "Sugestões" exibe diferentes carteiras de investimento de acordo com o perfil calculado do usuário, oferecendo opções personalizadas e relevantes.
 - Seleção de Carteira: O usuário pode escolher uma das carteiras sugeridas, e sua seleção é salva no `AsyncStorage`.
 - Visualização da Carteira: A tela "Minha Carteira" exibe os detalhes da carteira que foi selecionada pelo usuário, concluindo o fluxo de personalização.
+
+## Telas
+
+### Tela de login
+
+![Login](assets/login.png)
+
+### Adicionar investimento
+
+![Adicionar](assets/add.png)
+
+### Visão geral da carteira
+
+![Visão geral](assets/visao.png)
+
+### Questionário
+
+![Questionário](assets/quest.png)
+
+### Erro 1 - Tentar inserir investimento sem completar o campo
+
+![Erro1](assets/erro1.png)
+
+### Erro 2 - Tentar inserir investimento com letra no campo de valor
+
+![Erro2](assets/erro2.png)
+
+## banco de Dados - Firebase
+
+![Firebase](assets/firebase.png)
